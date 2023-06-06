@@ -25,8 +25,7 @@ class Example extends Component {
     const [isModalOpen, setIsModalOpen] = useState(false) // state to control the modal
     return (
       <Modal isOpen={isModalOpen} setIsOpen={setIsModalOpen}>
-        {' '}
-        {Children}{' '}
+        {Children}
       </Modal>
     )
   }
